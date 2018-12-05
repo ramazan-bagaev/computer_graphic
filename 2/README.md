@@ -9,8 +9,8 @@
 
 ## Thresholding
 
-![](https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/thresholding/processed.cat.jpg?raw=true|width=100)
-![](https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/thresholding/processed.gradient.png?raw=true|width=100)
-![](https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/thresholding/processed.iguana.jpg?raw=true|width=100)
-![](https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/thresholding/processed.lenna.jpg?raw=true|width=100)
+<img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/thresholding/processed.cat.jpg?raw=true" width="100%">
+<img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/thresholding/processed.gradient.png?raw=true" width="100%">
+<img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/thresholding/processed.iguana.jpg?raw=true" width="100%">
+<img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/thresholding/processed.lenna.jpg?raw=true" width="100%">
 
