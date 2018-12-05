@@ -9,8 +9,14 @@
 
 ## Thresholding
 
-<img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/thresholding/processed.cat.jpg?raw=true" width="100%">
-<img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/thresholding/processed.gradient.png?raw=true" width="100%">
-<img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/thresholding/processed.iguana.jpg?raw=true" width="100%">
-<img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/thresholding/processed.lenna.jpg?raw=true" width="100%">
+<img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/thresholding/processed.cat.jpg?raw=true" width="50%">
+<img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/thresholding/processed.gradient.png?raw=true" width="50%">
+<img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/thresholding/processed.iguana.jpg?raw=true" width="50%">
+<img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/thresholding/processed.lenna.jpg?raw=true" width="50%">
 
+## Random dithering
+
+<img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/dithering_rand/processed.cat.jpg?raw=true" width="50%">
+<img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/dithering_rand/processed.gradient.png?raw=true" width="50%">
+<img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/dithering_rand/processed.iguana.jpg?raw=true" width="50%">
+<img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/dithering_rand/processed.lenna.jpg?raw=true" width="50%">
