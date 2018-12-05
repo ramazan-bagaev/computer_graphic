@@ -3,9 +3,9 @@
 ## Исходные картинки
 
 <img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/src/main/resources/images/cat.jpg?raw=true" width="100%">
-![](https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/src/main/resources/images/gradient.png?raw=true|width=100)
-![](https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/src/main/resources/images/iguana.jpg?raw=true|width=100)
-![](https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/src/main/resources/images/lenna.jpg?raw=true|width=100)
+<img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/src/main/resources/images/gradient.png?raw=true" width="100%">
+<img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/src/main/resources/images/iguana.jpg?raw=true" width="100%">
+<img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/src/main/resources/images/lenna.jpg?raw=true" width="100%">
 
 ## Thresholding
 
