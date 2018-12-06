@@ -1,5 +1,8 @@
 # Сравнение алгоритмов аппроксимации полутонового изображения двухуровневым
 
+
+## Результаты
+
 ## Исходные картинки
 
 <img src="https://github.com/ramazan-bagaev/computer_graphic/blob/master/2/src/main/resources/images/cat.jpg?raw=true" width="50%">
