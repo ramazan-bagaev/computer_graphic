@@ -3,7 +3,7 @@
 ## Установка
 
 ```
-mvn isntall
+mvn install
 ```
 
 ## Запуск
