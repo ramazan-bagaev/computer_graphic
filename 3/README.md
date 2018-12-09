@@ -36,3 +36,7 @@ M - уменьшить ближнюю зону видимости (Z_NEAR)
 
 3 - вид сбоку
 
+## Литература
+
+https://lwjglgamedev.gitbooks.io/3d-game-development-with-lwjgl/content/
+
