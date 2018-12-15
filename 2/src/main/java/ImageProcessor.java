@@ -1,7 +1,8 @@
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class ImageProcessor {
-
 
     public static void processThresholding(Image image){
         for(int i = 0; i < image.getHeight(); i++){
@@ -45,11 +46,14 @@ public class ImageProcessor {
     }
 
     public static void processFloydSteinburg(Image image, boolean bothDirections){
+        Map<Integer, Double> map = new HashMap();
+        int index;
         for(int i = 0; i < image.getHeight(); i++){
             int y = i;
             for(int j = 0; j < image.getWidth(); j++){
                 int x = (i % 2 == 0 || !bothDirections) ? j : image.getWidth() - j - 1;
-                int error = image.get(x, y);
+                index = y * image.getWidth() + x;
+                double error = image.get(x, y) + map.getOrDefault(index, Double.valueOf(0));
                 if (error < 127){
                     image.set(x, y, 0);
                 }
@@ -58,10 +62,10 @@ public class ImageProcessor {
                     error -= 255;
                 }
                 int dir = (i % 2 == 0 || !bothDirections) ? 1 : -1;
-                image.set(x + dir, y, 7*error/16 + image.get(x + dir, y));
-                image.set(x - dir, y + 1, 3*error/16 + image.get(x - dir, y + 1));
-                image.set(x, y + 1 ,5*error/16 + image.get(x, y + 1));
-                image.set(x + dir, y + 1, error/16 + image.get(x + dir, y + 1));
+                map.put(index + dir, 7*error/16 + map.getOrDefault(index + dir, Double.valueOf(0)));
+                map.put(index - dir + image.getWidth(), 3*error/16 + map.getOrDefault(index - dir + image.getWidth(), Double.valueOf(0)));
+                map.put(index + image.getWidth(), 5*error/16 + map.getOrDefault(index + image.getWidth(), Double.valueOf(0)));
+                map.put(index + dir + image.getWidth(), error/16 + map.getOrDefault(index + dir + image.getWidth(), Double.valueOf(0)));
 
             }
         }

@@ -14,12 +14,13 @@ public class Main {
         ImageProcessor.processFloydSteinburg(im, true);
         ImageProcessor.processFloydSteinburg(im1, true);
         ImageProcessor.processFloydSteinburg(im2, true);
-        //ImageProcessor.processFloydSteinburg(im3, true);
+        ImageProcessor.processFloydSteinburg(im3, true);
+
 
 
         ImageWriter.write(im);
         ImageWriter.write(im1);
         ImageWriter.write(im2);
-        //ImageWriter.write(im3);
+        ImageWriter.write(im3);
     }
 }
