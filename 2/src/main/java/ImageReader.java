@@ -14,9 +14,9 @@ public class ImageReader {
     public Image read(String file, String name, String format){
         BufferedImage img = null;
         try {
-            InputStream in = getClass().getResourceAsStream(file);
-            img = ImageIO.read(in);
-            //img = ImageIO.read(new File(file));
+            //InputStream in = getClass().getResourceAsStream(file);
+            //img = ImageIO.read(in);
+            img = ImageIO.read(new File(file));
         } catch (IOException e) {
         }
         return new Image(name, img, format);

@@ -45,4 +45,8 @@ public class Image {
     public String getFormat() {
         return format;
     }
+
+    public void processedBy(String processor){
+        name = processor + "." + name;
+    }
 }

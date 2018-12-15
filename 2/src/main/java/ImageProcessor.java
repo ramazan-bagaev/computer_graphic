@@ -10,6 +10,7 @@ public class ImageProcessor {
                 image.set(j, i, image.get(j, i) < 127 ? 0 : 255);
             }
         }
+        image.processedBy("thresholding");
     }
 
     public static void processRandomDithering(Image image){
@@ -18,6 +19,7 @@ public class ImageProcessor {
                 image.set(j, i, image.get(j, i) < ThreadLocalRandom.current().nextInt(0, 256) ? 0 : 255);
             }
         }
+        image.processedBy("randomDithering");
     }
 
     public static void processOrderingDithering(Image image, int size) throws Exception {
@@ -27,6 +29,7 @@ public class ImageProcessor {
                 image.set(j, i, image.get(j, i) < dm.get(j % size, i % size) ? 0 : 255);
             }
         }
+        image.processedBy("orderingDithering.size(" + String.valueOf(size) + ")");
     }
 
     public static void processErrorDiffusion(Image image, boolean bothDirections){
@@ -43,6 +46,10 @@ public class ImageProcessor {
                 }
             }
         }
+        String dir;
+        if (bothDirections) dir = "bothDirections";
+        else dir = "oneDirection";
+        image.processedBy("errorDiffusion." + dir);
     }
 
     public static void processFloydSteinburg(Image image, boolean bothDirections){
@@ -69,5 +76,10 @@ public class ImageProcessor {
 
             }
         }
+        String dir;
+        if (bothDirections) dir = "bothDirections";
+        else dir = "oneDirection";
+        image.processedBy("floydSteinburg." + dir);
+
     }
 }
